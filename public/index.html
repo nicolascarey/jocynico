@@ -1,0 +1,94 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="description" content="This is the AMP Boilerplate.">
+    <link rel="stylesheet" href="/build/tailwind.css" type="text/css" rel="stylesheet" />
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <!-- Import other AMP Extensions here -->
+    <style amp-custom>
+    /* Add your styles here */
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <link rel="canonical" href=".">
+    <title>My AMP Page</title>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Webpage",
+      "url": "https://www.example.com",
+      "name": "My Webpage",
+      "headline": "webpage title",
+      "description": "Here is the description",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.example.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Publisher",
+        "logo": {
+          "url": "https://www.example.com/logo-blue.svg",
+          "width": 175,
+          "height": 60,
+          "@type": "ImageObject"
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.example.com/leader.png",
+        "width": 1200,
+        "height": 630
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <section class="h-screen">
+      <div class="bg-no-repeat bg-top h-32 mb-12" style="background-image: url('/img/hero_edge.jpg');">
+      </div>
+      <div class="text-center">
+        <p class="tracking-wide text-ligMid text-xl font-display pt-2">Jun 5, 2021</p>
+        <p class="text-ligDark tracking-wider align-middle font-display"><span style="font-size: 3em;" class="tracking-wider">Jocelyn</span>  <span style="font-size: 4em;" >&nbsp;& </span> <span style="font-size: 3em;" class="tracking-wider">Nicolas</span></p>
+        <p class="text-xl text-ligMid pb-12 font-display tracking-wide">Hernandez Ranch, Woodland, CA</p>
+        <div class="bg-no-repeat bg-top mt-12 bg-gray-400" style="background-image: url('/img/hero.png'); height: 25em;">
+        </div>
+      </div>
+      </section>
+      <section class="bg-cloudLight border-solid border-2 border-cloudDark flex h-screen">
+        <div class="container relative flex flex-wrap content-center mx-auto">
+          <div class="">
+            <h1 class="text-4xl font-display text-ligDark pb-8">Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.</h1>
+            <p class="text-xs uppercase pt-8 tracking-wide font-bold text-ligDark">Some helpful info to plan your trip:</p>
+            <ul class="text-grassDark text-xl flex pt-4">
+              <a href="#location"><li class="mr-6 hover:text-grassLight">Location</li></a>
+              <li class="mr-6 hover:text-grassLight">Hotels</li>
+              <li class="mr-6 hover:text-grassLight">Travel</li>
+              <li class="mr-6 hover:text-grassLight">Explore</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="location" class="flex h-screen">
+        <div class="container relative flex flex-wrap  content-center mx-auto">
+          <div class="w-1/2 content-center mx-auto align-middle content-center">
+            <h3 class="text-4xl font-display text-ligDark pb-12">We hope you'll join us for a northern Californian wedding.</h3>
+            <p class="font-sans text-ligMid ">The ceremony will take place at the St. Francis church in Sacramento. The ceremony will take place at Jocelyn's family home, a ranch in the neighbouring town of Woodland. We will send the address for each, directions and a full itinerary in the mail in January 2021.</p>
+          </div>
+          <div class="w-1/2">
+              <img src="/img/map.png" alt="" class=" m-auto">
+          </div>
+        </div>
+      </section>
+      <section class="h-screen">
+        <img href="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap
+        &markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+        &markers=color:red%7Clabel:C%7C40.718217,-73.998284
+        &key=AIzaSyBu6J38vQ4Yv9ez9gRwT_7_pbQNvln_q3o">
+      </section>
+  </body>
+</html>
