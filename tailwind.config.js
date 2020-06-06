@@ -16,6 +16,9 @@ module.exports = {
       grassDark: '#497F51',
       grassLight: '#629D65',
     },
+    // height: {
+    //   '325px': '325px',
+    // },
     extend: {},
   },
   variants: {},
