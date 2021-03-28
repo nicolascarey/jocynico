@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="/build/tailwind.css" type="text/css" rel="stylesheet" />
 	<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
 	<script async src="https://cdn.ampproject.org/v0.js"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Raleway:wght@400&display=swap" rel="stylesheet">
 	<!-- Import other AMP Extensions here -->
 	<style amp-custom>
 		/* Add your styles here */
@@ -118,7 +119,7 @@
 
 	<script>
 		// Set the date we're counting down to
-		var countDownDate = new Date("Jun 5, 2021 20:00:00").getTime();
+		var countDownDate = new Date("Sep 4, 2021 20:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function () {
@@ -144,105 +145,125 @@
 	</script>
 </head>
 
-<body class="flex flex-col bg-top bg-no-repeat" style="background-image: url('/img/hero_edge.jpg');">
-	<section id="hero" class="flex flex-col md:h-screen">
-		<div class="text-center flex flex-1 content-center items-center">
-			<div class="container text-center mx-auto mt-12 pt-12">
-				<p class="tracking-wide text-ligMid text-l md:text-xl font-display pt-12 pb-2">Jun 5, 2021</p>
-				<p class="text-ligDark tracking-wider pb-4 font-display"><span class="text-3xl md:text-5xl"
-						class="tracking-wider">Jocelyn</span> <span class="text-4xl md:text-6xl">&nbsp;& </span> <span
-						class="text-3xl md:text-5xl" class="tracking-wider">Nicolas</span></p>
-				<p class="text-l md:text-xl text-ligMid mb-8 font-display tracking-wide">Hernandez Ranch, Woodland, CA
+<body class="flex flex-col bg-top bg-no-repeat border-solid border-8 border-cloudDark">
+	<section class="md:h-screen border-solid border-b-8 border-cloudDark">
+		<div class="w-full h-full flex items-center justify-between hero-one ">
+			<div class="w-2/5 mx-6 pv-12 text-center">
+				<p class="tracking-widest text-ligDark text-l md:text-l font-sans pb-2">SEP 4, 2021</p>
+				<p class="text-ligDark tracking-wider pb-4 font-script">
+					<span class="text-3xl md:text-5xl tracking-wider">jocelyn</span> 
+					<span class="text-4xl md:text-4xl">&nbsp;&&nbsp;</span> 
+					<span class="text-3xl md:text-5xl" class="tracking-wider">nicolas</span>
 				</p>
-		<a href="https://airtable.com/shribsrniWM5XY9Oa" class="mb-12 rounded border-solid border-2 border-cloudDark hover:border-cloudLight py-2 px-6 font-bold font-sans text-grassDark hover:text-grassLight">RSVP</a>
+				<p class="tracking-widest text-xs uppercase text-ligDark mb-8 font-sans">Hernandez Ranch, Woodland, CA</p>
+				<a href="https://airtable.com/shribsrniWM5XY9Oa" class="rounded tracking-wider bg-ligLight  py-2 px-6 font-bold font-sans text-ligDark hover:text-white hover:bg-ligDark">RSVP</a>	
+			</div>
+		  	<div class="h-full w-3/5 flex justify-center">
+				<img src="/img/J+NEngagements-70.jpg" alt="" class="object-cover">
 			</div>
 		</div>
-		<div class="bg-no-repeat bg-top md:mt-12 lg:mt-12 xl:mt-12 md:h-64 lg:h-64 xl:visible invisible sm:invisible md:visible lg:visible xl:visible"
-			style="background-image: url('/img/hero.jpg');">
-		</div>
-		<div class="bg-no-repeat bg-top mt-12 sm:mt-12 md:mt-0 h-325px md:hidden lg:h-0px lg:hidden visible sm:visible md:invisible lg:invisible xl:invisible"
-			style="background-image: url('/img/hero_SM.jpg'); height: 325px;">
-		</div>
 	</section>
-	<section id="intro" class="flex items-stretch bg-cloudLight md:h-screen border-solid border-2 border-cloudDark">
-		<div class="self-center flex-1">
-			<div class="container mx-auto">
-				<div class="text-center my-12">
-					<img src="/img/favicon-16.png" alt="" class="mx-auto pb-4">
-					<p id="demo" class="font-display text-ligMid text-2xl"></p>
+	<section class="flex flex-col pt-24">
+		<div class="max-w-4xl flex flex-wrap mx-auto">
+			<div class="w-full text-center my-12 pr-4">
+				<img src="/img/heart.svg" alt="" class="mx-auto pb-4">
+				<p id="demo" class=" text-cloudDark text-xl  md:text-4xl font-script pb-2 "></p>
+			</div>
+			<div class="w-full md:w-1/2 px-12">
+				<div class="">
+					<h1 class="text-md md:text-l tracking-wide font-sans uppercase text-ligDark pb-8">The date has changed but our love and excitement has not. It would be an honor if you joined us for a day filled with paella, tacos, live bands in Spanish and English, and, most importantly, love.</h1>
 				</div>
-				<h1 class="text-xl py-12 px-4 md:text-4xl font-display text-ligDark pb-8">We’re getting married and we’d
-				love to celebrate this important day with you! This will be a day filled with paella, tacos, live bands in Spanish and English,
-				and, most importantly, love.</h1>
-				<p class="text-xs uppercase px-4 pt-8 tracking-wide font-bold text-ligDark">Some helpful info to plan your
-				trip:</p>
-				<ul class="text-grassDark pb-12 px-4 text-xl md:flex pt-4">
+			</div>
+			<div class="w-full md:w-1/2 px-4 md:px-12">
+				<ul class="text-tierraDark font-sans pb-12 text-m uppercase ">
 					<a href="#location">
-						<li class="md:mr-6 pb-4 hover:text-grassLight">Location</li>
+						<li class="md:mr-4 pb-4 hover:text-cloudLight">Location</li> 
 					</a>
 					<a href="#travel">
-						<li class="md:mr-6 pb-4  hover:text-grassLight">Travel & Accomodation</li>
+						<li class="md:mr-4 pb-4 hover:text-cloudLight">Accommodation</li>
 					</a>
-					<a href="#explore">
-						<li class="md:mr-6 pb-4 hover:text-grassLight">Explore</li>
+					<a href="#registry">
+						<li class="md:mr-4 pb-4 hover:text-cloudLight">Wedding Registry</li> 
+					</a>
+					<a href="#transport">
+						<li class="md:mr-4 pb-4 hover:text-cloudLight">Transport on the day</li>
 					</a>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section id="location" class="flex flex-col">
-		<div class="md:flex flex-1 items-stretch container px-4 mx-auto">
-			<div class="self-center w-full sm:w-full md:w-1/2 md:pr-16">
-				<h3 class="text-3xl font-display text-ligDark pt-12 md:pt-6 pb-4">Meet us in Sacramento.</h3>
-				<p class="font-sans text-ligDark pb-6">Our Ceremony will take place at <a href="https://www.google.com/maps/place/Saint+Francis+of+Assisi+Parish/@38.573854,-121.4747387,17z/data=!3m1!4b1!4m5!3m4!1s0x809ad0c1b9a78e39:0x723b0a47039d1fca!8m2!3d38.573854!4d-121.47255" class="text-grassDark hover:text-grassLight">Saint Francis of Assisi Parish,
-					Sacramento</a>, at 11:00am.
-				</p>
-				<p class="font-sans text-ligDark">Our reception is being held at Jocelyn's family ranch in the neighboring town of Woodland; it will begin shortly after the ceremony. The festivities will kick off with lunch and live music. We'll send out the address along with a full itinerary and transport arrangements in January 2021.</p>
+
+	<section id="location" class="flex flex-col pt-12">
+		<div class="max-w-4xl flex flex-wrap mx-auto">
+			<div class="w-full text-center my-12 pr-4">
+				<h3 class="text-5xl font-script text-ligDark pt-12 md:pt-6 pb-4">meet us in sacramento</h3>
 			</div>
-			<div class="w-full sm:w-full md:w-1/2">
-				<img alt="" class="mx-auto object-center transform scale-90 pt-6" srcset="/img/location.jpg 1x, /img/location@2x.jpg 2x">
+			<div class="w-full md:w-1/2 px-12 py-8">
+				<p class="text-md md:text-sm tracking-wide font-sans uppercase text-ligDark pb-8">Our Ceremony will take place at <a href="https://www.google.com/maps/place/Saint+Francis+of+Assisi+Parish/@38.573854,-121.4747387,17z/data=!3m1!4b1!4m5!3m4!1s0x809ad0c1b9a78e39:0x723b0a47039d1fca!8m2!3d38.573854!4d-121.47255" class="text-tierraDark hover:text-cloudLight">Saint Francis of Assisi Parish,
+				Sacramento</a>, at 11:00am.</p>
+				<p class="text-md md:text-sm tracking-wide font-sans uppercase text-ligDark pb-8">Our reception is being held at Jocelyn's family ranch in the neighboring town of Woodland, starting shortly after the ceremony. The festivities will kick off with lunch and live music.
+				</p>	
 			</div>
-		</div>
-	</section>
-	<section id="travel" class="flex flex-col">
-		<div class="container flex flex-wrap mx-auto pt-24">
 			<div class="w-full md:w-1/2 px-4 md:px-12">
-				<img srcset="/img/sacramento.jpg 1x, /img/sacramento@2x.jpg 2x" class="mx-auto">
-				<h3 class="text-3xl font-display text-ligDark pt-12 pb-4">Where to stay.</h3>
-				<p class="font-sans text-ligDark mb-24">We have picked out The Kimpton Sawyer and The Holiday Inn-Downtown that are near the church in Sacramento. We've arranged a discount via hotels.com for the wedding weekend. If you are interested in staying at these places, <a href="https://airtable.com/shribsrniWM5XY9Oa" class="text-grassDark hover:text-grassLight">please use this link</a> to fill out your information so we can send you the details.</p>
+				<img srcset="/img/stfrancis.jpg 1x, /img/stfrancis@2x.jpg 2x" alt="">
 			</div>
-			<div class="w-full md:w-1/2 px-4 md:px-12  mx-auto content-center">
-				<img src="/img/flight.png" srcset="/img/flight.png 1x, /img/flight@2x.png 2x" class="mx-auto">
-				<h3 class="text-3xl font-display text-ligDark pt-12 pb-4">Getting here.</h3>
-				<p class="font-sans text-ligDark mb-24">We’re grateful to have people in our lives who will travel for our happy day. If you’re flying in there are multiple airports nearby. The largest airports for those visiting from far away are San Francisco (SFO) and Oakland (OAK). Driving from San Francisco to Sacramento is an hour and a half trip. For domestic flights, there is also an airport in Sacramento (SMF). The Sacramento and Woodland regions are hard to get around without a car but we will be arranging transportation from the church to the ceremony and back to the hotels. We will have more details on that later!</p>
-			</div>
-
 		</div>
 	</section>
 
-	<section id="explore" class="flex flex-col">
-		<div class="md:flex flex-1 items-stretch container px-4 mx-auto">
-
-			<div class="w-full sm:w-full md:w-1/2">
-				<img srcset="/img/explore.jpg 1x, /img/explore@2x.jpg 2x" class="m-auto pt-12">
+	<section id="travel" class="flex flex-col pt-24">
+		<div class="max-w-4xl flex flex-wrap mx-auto">
+			<div class="w-full md:w-1/2 px-12">
+				<img srcset="/img/sacramento.jpg 1x, /img/sacramento@2x.jpg 2x" alt="">
 			</div>
-
-			<div class="self-center w-full sm:w-full md:w-1/2 md:pl-16 ">
-				<h3 class="text-3xl font-display text-ligDark pt-12 sm:pt-12 md:pt-4 pb-4">Stay for the week.</h3>
-				<p class="font-sans text-ligDark">For those travelling, we've made some lists of our favorite places to explore. For those closer, its a list of some of our favorite places where we're always up for spending a day out with you.</p>
-				<ul class="font-sans">
-					<a href="https://www.notion.so/Central-Coast-8c2a78aa08f54035bacfe8877e31f6fc"><li class="pt-4 text-grassLight hover:text-grassLight font-bold">Central Coast</li></a>
-					<a href="https://www.notion.so/Sacramento-5d0e761b2b0848ba8677513c4e3ef02c"><li class="pt-4 text-grassLight hover:text-grassLight font-bold">Sacramento</li></a>
-					<a href="https://www.notion.so/San-Francisco-f9394a6e62774c9cb3e47ee27698933a"><li class="pt-4 text-grassLight hover:text-grassLight font-bold">San Francisco</li></a>
-					<a href="https://www.notion.so/Wine-County-9a4c364d5def4275bb79728919efdc86"><li class="pt-4 text-grassLight hover:text-grassLight font-bold">Sonoma & Napa</li></a>
-				</ul>
+			<div class="w-full md:w-1/2 px-4 py-8 md:px-12">
+				<p class="text-md md:text-sm tracking-wide font-sans uppercase text-ligDark pb-8">We have picked out The Kimpton Sawyer and The Holiday Inn-Downtown that are near the church in Sacramento.</p>
+				<p class="text-md md:text-sm tracking-wide font-sans uppercase text-ligDark pb-8">We've arranged a discount via hotels.com for the wedding weekend. If you are interested this, <a href="https://airtable.com/shribsrniWM5XY9Oa" class="text-tierraDark hover:text-cloudLight">please use this link</a> so we can send you the details.</p>
 			</div>
-			
 		</div>
 	</section>
+
+	<section id="registry" class="flex flex-col pt-24 mt-12">
+		<a href="https://www.blueprintregistry.com/registry/carey-hernandez-wedding-9-4-2021">
+		<div class="bg-ligDark max-w-xl mx-auto px-12 py-4 rounded-lg text-center hover:bg-ligMid">
+			<h3 class="text-4xl font-script text-white pb-4">registry</h3>
+			<p class="text-sm md:text-sm tracking-wide font-sans uppercase text-white pb-4">Your love and company at our wedding is the greatest gift of all. However, if you wish to honour us with a gift, we have a registry here.</p>
+		</div>
+		</a>
+	</section>
+
+
+	<section id="transport" class="flex flex-col pt-24">
+		<div class="max-w-xl flex flex-wrap mx-auto">
+			<div class="w-full text-center my-12 pr-4">
+				<h3 class="text-5xl font-script text-ligDark pt-12 md:pt-6 pb-4">on the day of the wedding</h3>
+			</div>
+			<p class="text-md md:text-md tracking-wide font-sans uppercase text-ligDark pb-8">
+				We have reserved a car at 10:40 AM from the Kimpton Hotel to take our guests to the church. If you are staying at the Holiday Inn Downtown, it is about a block and a half over to the Kimpton, please meet the car there.
+			</p>
+			<p class="text-md md:text-md tracking-wide font-sans uppercase text-ligDark pb-8">
+				After the ceremony, we will have transportation to take everyone directly to the reception. 
+			</p>	
+			<p class="text-md md:text-md tracking-wide font-sans uppercase text-ligDark pb-8">
+				At the end of the night, if you are staying in Sacramento, you won't have to worry about getting back.
+				There will be an ADA accessible shuttle to take you back to the hotel after the reception. 
+			</p>
+			<p class="text-md md:text-md tracking-wide font-sans uppercase text-ligDark pb-2">
+				We will be offering three different times for pick up and while you do not have to reserve a time in advance, we have listed them out for your convenience:
+			</p>
+			<ol class="text-md pl-4 md:text-md tracking-wide font-sans uppercase text-ligDark pb-8">
+				<li>• 9:30pm</li>
+				<li>• 10:40pm</li>
+				<li>• 11:40pm</li>
+			</ol>
+			<p class="text-xs md:text-md tracking-wide font-sans uppercase text-ligDark pb-8">
+				Note: It is an 8 minute car ride to the ceremony, please feel free to call an uber or lyft if you wish to get there later or happen to miss the car. Lyfts and Ubers are also possible to order from the ranch.
+			</p>
+		</div>
+	</section>
+
 
 	<div class="mt-24 text-center">
-		<a href="https://airtable.com/shribsrniWM5XY9Oa" class="mt-12 mb-12 rounded border-solid border-2 border-cloudDark hover:border-cloudLight py-2 px-6 font-bold font-sans text-grassDark hover:text-grassLight">RSVP</a>
+		<a href="https://airtable.com/shribsrniWM5XY9Oa" class="rounded tracking-wider bg-ligLight  py-2 px-6 font-bold font-sans text-ligDark hover:text-white hover:bg-ligDark">RSVP</a>	
 		<p class="text-ligMid my-8">Made with <span style="color:red">&heartsuit;</span> in San
 			Francisco
 		</p>
